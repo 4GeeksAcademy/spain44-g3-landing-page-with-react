@@ -14,7 +14,7 @@ export const MyCard = () => {
             <img src={image1} className="card-img-top" alt="Image 1" />
             <div className="card-body text-center"> 
               <h3 className="card-title">Rengoku</h3>
-              <p className="card-text">Figura detallada de Rengoku de la película de kimetsu no yaiba.</p>
+              <p className="card-text">Figura detallada de Rengoku de la película de Kimetsu no Yaiba.</p>
             </div>
             <div className="card-footer d-flex justify-content-center">
               <button type="button" className="btn btn-primary w-50">Comprar</button>
