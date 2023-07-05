@@ -5,7 +5,6 @@ import image3 from "../../img/figura3.jpg"
 import image4 from "../../img/figura4.jpg"
 
 export const MyCard = () => {
-  const urlimgen1 = "https://m.media-amazon.com/images/I/81ZfO3F8edL.jpg"
   return (
     <div className="container">
       <div className="row row-cols-1 row-cols-md-4 g-4">
