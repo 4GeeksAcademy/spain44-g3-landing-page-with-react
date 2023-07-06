@@ -1,5 +1,7 @@
 import React from "react";
 import {MyNavbar} from "./MyNavbar.jsx";
+import { Jumbotron } from "./Jumbotron.jsx";
+import { MyCard } from "./Mycard.jsx";
 import {MyFooter} from "./MyFooter.jsx";
 
 
@@ -12,6 +14,10 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<MyNavbar/>
+			<div className="container">
+				<Jumbotron/>
+				<MyCard/>
+			</div>
 			<MyFooter/>
 		</div>
 	);
