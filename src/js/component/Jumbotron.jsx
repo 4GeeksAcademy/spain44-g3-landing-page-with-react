@@ -1,16 +1,20 @@
 import React from "react";
-
 export const Jumbotron = () => {
+
+    const Imagen = "https://i.ytimg.com/vi/bQoXORzoQls/maxresdefault.jpg";
     return (
-        <div class="container my-5 background-grey">
-            <div class="position-relative p-5  text-muted bg-light border border-dashed rounded-5">
-                <svg class="bi mt-5 mb-3" width="48" height="48"></svg>
-                <h1 class="text-body-emphasis text-dark display-2 ">A Warm Welcome!</h1>
-                <p class="col-lg-12 mb-4 ">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis est corporis officia mollitia repudiandae itaque similique quod facilis perspiciatis nobis dolore quidem nemo, ullam laborum quos iusto vitae blanditiis.
+        <div className="container my-5"  style={{
+            backgroundImage: `url(${Imagen})`,
+            backgroundSize: "100% 100%",
+            backgroundPosition: "center",
+          }}>
+              <div className="position-relative p-5 text-muted">
+                <h1 className="text-body-emphasis text-info display-2 ">Anime World!</h1>
+                <p className="col-lg-12 mb-4 text-success ">
+                    <strong>¡Bienvenido a nuestra tienda de figuras de anime! En nuestra tienda de figuras de anime encontrarás un universo de coleccionables que harán vibrar a tu lado más fanático.</strong> 
                 </p>
-                <button class="btn btn-primary px-3 mb-5" type="button">
-                    Call to action!
+                <button className="btn btn-primary px-3 mb-5" type="button">
+                    Ver Catálogo!
                 </button>
             </div>
         </div>
