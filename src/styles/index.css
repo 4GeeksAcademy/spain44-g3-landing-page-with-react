@@ -1,5 +1,4 @@
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -16,6 +15,21 @@
 
 .nav-link {
   color: whitesmoke;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+}
+
+.github-logo {
+  width: 3%; 
+  display: inline-flex;
+}
+
+
+li {
+  display: flex;
 }
 /* 
 
